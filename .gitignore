@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# venv / poetry
+.env
+.venv/
+venv/
+ENV/
+env.bak/
+pip-wheel-metadata/
+
+# Logs
+*.log
+logs/
+*.pid
+
+# Unit test / coverage
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.pytest_cache/
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Docker
+*.tar
+*.bak
+*.old
+
+# GitHub Actions artifacts
+*.zip
+*.tar.gz
+
+# Ignore secrets example, but keep .env.example
+.env
