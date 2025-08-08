@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set lowercase repo
+      - name: Lowercase repo
         id: lc
         run: echo "repo_lc=${GITHUB_REPOSITORY,,}" >> $GITHUB_OUTPUT
 
